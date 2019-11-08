@@ -1,0 +1,24 @@
+{
+  "name": "weather-app-nodejs",
+  "version": "1.0.0",
+  "description": "node js with weather api based on the user location ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walid-hajhussien/weather-app-NodeJs.git"
+  },
+  "author": "Walid HajHussien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walid-hajhussien/weather-app-NodeJs/issues"
+  },
+  "homepage": "https://github.com/walid-hajhussien/weather-app-NodeJs#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "public-ip": "^3.2.0",
+    "request": "^2.88.0"
+  }
+}
