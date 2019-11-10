@@ -3,7 +3,14 @@ const chalk = require("chalk");
 const Geocoding = require("./utils/Geocoding");
 const forecast = require("./utils/forecast");
 
-Geocoding.getGeocoding("zarqa jordan", (error, data) => {
+// user location
+const location = process.argv[2] || "Amman Jordan";
+
+if (!process.argv[2]) console.log("No location was provide the defualt location : " + chalk.green("Amman-Jordan"));
+
+console.log(location);
+
+Geocoding.getGeocoding(location, (error, data) => {
   if (error) {
     console.log("ERROR : ", chalk.red(error));
   } else {
