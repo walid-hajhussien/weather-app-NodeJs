@@ -10,7 +10,7 @@ the application using two API Geocoding and forecast
 
 npm start [user address]
 
-ex : node "Zarqa Jordan"
+ex : npm start "Zarqa Jordan"
 
 # defualt location 
 
