@@ -8,7 +8,7 @@ the application using two API Geocoding and forecast
 
 # command line 
 
-node [user address]
+npm start [user address]
 
 ex : node "Zarqa Jordan"
 
