@@ -10,7 +10,7 @@ the application using two API Geocoding and forecast
 
 node [user address]
 
-ex : node "Zarqa Jordan"
+ex : node app.js "Zarqa Jordan"
 
 # defualt location 
 
