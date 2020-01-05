@@ -8,9 +8,9 @@ the application using two API Geocoding and forecast
 
 # command line 
 
-node [user address]
+npm start [user address]
 
-ex : node app.js "Zarqa Jordan"
+ex : npm start "Zarqa Jordan"
 
 # defualt location 
 
